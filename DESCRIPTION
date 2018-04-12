@@ -1,0 +1,25 @@
+Package: tblr
+Type: Package
+Title: Create quick tables for data reporting
+Version: 0.1.0
+Authors: Jan Willem van Dalen
+Maintainer: Jan Willem van Dalen <j.vandalen@amc.nl>
+Authors@R: person("Jan Willem", "van Dalen", email="j.vandalen@amc.nl", role=c("aut","cre"))
+Description: 
+    Simple but hopefully helpful tool to create three types of basic tables commonly used in data reporting
+    The tbls command allows for the creation of tables reporting the number valid values with the mean and standard deviation
+    the median with inter quartile range or the proportion in % with 95% confidence interval of that estimate.
+    The tblr command allows for the creation of N by 2 tables, reporting the same information in 2 separate groups and comparing
+    the values for statistically significant difference using Student's T-tests for means, Mann-Whitney U-tests for medians and
+    Fisher's exact tests for proprtions.
+    The tbles command allows for the creation of tables reporting the results of Cox, linear or logistic regression analyses
+    conducted using coxme, coxph, glmer, glm, lmer and lm functions. Reported are the number of events/total number, the estimate,
+    the 95% confidence interval and the p-value.
+License: CC0
+Suggests: 
+    lme4, 
+    coxme
+Encoding: UTF-8
+LazyData: true
+URL: http://github.com/janwillemvandalen/tblr
+BugReports: http://github.com/janwillemvandalen/tblr/issues
