@@ -21,5 +21,5 @@ Suggests:
     coxme
 Encoding: UTF-8
 LazyData: true
-URL: http://github.com/janwillemvandalen/tblr
-BugReports: http://github.com/janwillemvandalen/tblr/issues
+URL: https://github.com/janwillemvandalen/tblr
+BugReports: https://github.com/janwillemvandalen/tblr/issues
